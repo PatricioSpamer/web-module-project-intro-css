@@ -1,0 +1,132 @@
+/*css reset, did no see on instructions that it had to be Eric Myers so I kept it simple to avoid complications */
+
+
+
+*{
+
+
+}
+
+
+nav{
+    width: 100%;
+    margin: 50px;
+    text-align:center;
+    display: flex;
+
+}
+
+nav a:link{
+    text-decoration: none;
+}
+
+
+.planbutton{
+    display:inline-block;
+    width:100px;
+    max-height: 20px;
+    text-align:center;
+    padding: 2% 0;
+    border-radius:10px;
+    border: 3px;
+   background-color: #FF764E;
+ 
+}
+
+
+.learnbutton{
+    margin: 20px 20px 20px 20px;
+    width:100px;
+    max-height: 20px;
+    text-align:center;
+    padding: 2% 0;
+    border-radius:10px;
+    border: 3px;
+    background-color:#5ED3EB;
+
+}
+
+.getbutton{
+    margin: 20px 20px 20px 20px;
+    width:100px;
+    max-height: 20px;
+    text-align:center;
+    padding: 2% 0;
+    border-radius:10px;
+    border: 3px;
+    background-color:#FFCD69;
+
+}
+
+.firstsection{
+    width: 100%;
+    display: flex;
+    padding: 100px;
+}
+
+.firstpic{
+    width:200px;
+    height:200px;
+}
+
+.FirstTextBox{
+
+}
+
+
+.secondsection{
+
+}
+
+.FirstLogo{
+
+}
+
+.FirstMiniParagraph{
+
+}
+
+.secondlogo{
+
+}
+
+.SecondMiniParagraph{
+
+
+}
+
+.BigPic{
+
+
+}
+
+footer{
+
+
+}
+
+
+
+
+
+
+/* 
+ [ ] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
+- [ ] Markup html semantically, such that it can be styled according to the given desktop image
+- [ ] Color the background of items in the navigation bar and footer with the following colors:
+  - [ ] Plan your Visit: `#FF764E`
+  - [ ] Learn About the Park: `#5ED3EB`
+  - [ ] Get Involved: `#FFCD69`
+- [ ] Change all font colors and styles according to design file
+  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- [ ] Color the background of the main text body with `#DDB9A3`
+- [ ] Color the background of the footer with `#F9E7DC`
+- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+  - [ ] A round image in the header
+  - [ ] Round corners on navigation and footer items
+  - [ ] Header image and text side by side
+  - [ ] Centered content and margins around content
+  - [ ] Footer image positioning
+  */
